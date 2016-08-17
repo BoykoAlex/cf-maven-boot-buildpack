@@ -6,7 +6,7 @@ orionDir=$appDir/orion
 # Orion setup and launch
 ##############################################################################################
 echo ===== Setting up Orion =====
-if [ ! -d ${orionDir}]; then
+if [ ! -d ${orionDir} ]; then
     mkdir ${orionDir}
 fi
 cd ${orionDir}
