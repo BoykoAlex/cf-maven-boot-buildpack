@@ -11,6 +11,6 @@ if [ ! -d ${orionDir} ]; then
     mkdir ${orionDir}
 fi
 cd ${orionDir}
-${nodejsInstallDir}/bin/npm install orion
+${nodejsInstallDir}/node-v4.5.0-linux-x64/bin/npm install orion
 cd ${orionDir}/node_modules/orion
 npm start orion
