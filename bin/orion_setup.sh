@@ -1,8 +1,8 @@
 echo "Setting up Orion from separate script"
 appDir=$1
 cacheDir=$2
-nodejsInstallDir=$3
-orionDir=$appDir/orion
+nodejsInstallDir=${appDir}/nodejs
+orionDir=${appDir}/orion
 ##############################################################################################
 # Orion setup and launch
 ##############################################################################################
