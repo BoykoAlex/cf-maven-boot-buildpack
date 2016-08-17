@@ -11,7 +11,7 @@ echo ===== Setting up Orion =====
 if [ ! -d ${orionDir} ]; then
     mkdir ${orionDir}
 fi
-cd ${orionDir}@0.0.90
-${npm} install orion
+cd ${orionDir}
+${npm} install orion@0.0.90
 cd ${orionDir}/node_modules/orion
 ${npm} start orion
