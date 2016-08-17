@@ -14,4 +14,4 @@ fi
 cd ${orionDir}
 ${npm} install orion@0.0.37
 cd ${orionDir}/node_modules/orion
-${npm} start orion
+${npm} start orion -p 9000
