@@ -15,4 +15,4 @@ fi
 cd ${orionDir}
 ${npm} install orion@0.0.37
 cd ${orionDir}/node_modules/orion
-${node} server.js -p 9000 &
+${node} server.js -p 9000 -w ${appDir}/src &
