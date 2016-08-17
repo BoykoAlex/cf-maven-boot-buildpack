@@ -157,7 +157,7 @@ chmod a+x nodejs_install.sh
 ##############################################################################################
 echo "==== running Orion Node setup script ==================================================="
 chmod a+x orion_setup.sh
-./orion_setup.sh $appDir $cacheDir
+./orion_setup.sh $appDir $cacheDir ${nodejsInstallDir}
 
 ##############################################################################################
 # generate release.yml

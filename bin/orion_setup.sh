@@ -1,6 +1,7 @@
 echo "Setting up Orion from separate script"
 appDir=$1
 cacheDir=$2
+nodejsInstallDir=$3
 orionDir=$appDir/orion
 ##############################################################################################
 # Orion setup and launch
@@ -10,6 +11,6 @@ if [ ! -d ${orionDir} ]; then
     mkdir ${orionDir}
 fi
 cd ${orionDir}
-npm install orion
+${nodejsInstallDir}/bin/npm install orion
 cd ${orionDir}/node_modules/orion
 npm start orion
